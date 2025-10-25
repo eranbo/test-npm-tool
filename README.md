@@ -1,0 +1,1 @@
+Just a test for npm publish for a tool
