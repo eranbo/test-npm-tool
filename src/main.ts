@@ -1,3 +1,4 @@
 (async () => {
-    console.log('Hello World!');
+    const packageJson = await import('../package.json');
+    console.log('Hello World!, Version: ', packageJson.version, '');
 })();
