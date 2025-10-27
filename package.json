@@ -6,6 +6,7 @@
   "bin": {
     "eranbo": "dist/main.js"
   },
+  "files": ["dist/**/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b tsconfig.json",
