@@ -8,7 +8,7 @@ async function main() {
     const packageJsonContent = await fs.readFile(packageJsonPath, 'utf-8');
     const packageJson = JSON.parse(packageJsonContent);
 
-    console.log('Hello World!, Version: ', packageJson.version, '');
+    console.log('Will it work again?, Version: ', packageJson.version, '');
 }
 
 async function run(handler: () => Promise<void>) {
