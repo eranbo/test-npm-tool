@@ -3,4 +3,8 @@ async function main() {
     console.log('Hello World!, Version: ', packageJson.version, '');
 }
 
-main();
+async function run(handler: () => Promise<void>) {
+    await handler();
+}
+
+run(main);
